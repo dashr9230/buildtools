@@ -2,8 +2,8 @@
 This repository serves as a centralized collection of multiple compiler versions tailored for various matching decompilation projects.
 
 See:
-https://github.com/dashr9230/SA-MP
-https://github.com/dashr9230/VC-MP
+- https://github.com/dashr9230/SA-MP
+- https://github.com/dashr9230/VC-MP
 
 ## TODOs
 - [ ] A Python script that makes building easier
