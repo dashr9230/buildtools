@@ -17,10 +17,10 @@ See:
 3. Open Command Prompt and enter the following commands in this order:
 ```batch
 cd C:\sampcvs037R4\sampcvs\main\rcon\
-set INCLUDE=C:\sampcvs037R4\sampcvs\main\buildtools\vc98\Include
-set LIB=C:\sampcvs037R4\sampcvs\main\buildtools\vc98\Lib
+set INCLUDE=C:\sampcvs037R4\sampcvs\main\buildtools\msvc60\Include
+set LIB=C:\sampcvs037R4\sampcvs\main\buildtools\msvc60\Lib
 mkdir C:\sampcvs037R4\sampcvs\main\rcon\Release
-..\buildtools\vc98\Bin\cl.exe @..\buildtools\rcon_cl.tmp
-..\buildtools\vc98\Bin\link.exe @..\buildtools\rcon_link.tmp
+..\buildtools\msvc60\Bin\cl.exe @..\buildtools\rcon_cl.tmp
+..\buildtools\msvc60\Bin\link.exe @..\buildtools\rcon_link.tmp
 ```
 5. That's it. Your compiled `rcon.exe` binary is in the `C:\sampcvs037R4\sampcvs\main\rcon\Release` directory.
